@@ -36,3 +36,201 @@
     transform: rotate(360deg);
   }
 }
+
+.MuiTypography-displayBlock {
+  font-weight: bold;
+  font-size: 20px;
+  color: #50afbf;
+}
+
+.container-profile {
+  width: 55%;
+  margin: 0 auto;
+}
+
+.container-portfolio {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.container-skill {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.profile-link {
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  margin: 16px 20px 16px 0;
+}
+
+.fab-profile {
+  font-size: 20px !important;
+  padding: 16px 5px 16px 16px !important;
+  color: #039be5;
+}
+
+.sns-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #039be5;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.left {
+  width: 40%;
+}
+
+.img-box {
+  display: flex;
+  justify-content: center;
+}
+
+.img_title {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+.right {
+  width: 60%;
+}
+
+.comment {
+  font-size: 15px;
+  letter-spacing: 1px;
+  line-height: 2rem;
+}
+
+.works-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  justify-content: space-between;
+}
+
+.link {
+  display: block;
+  cursor: pointer;
+  height: 175px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12),
+    0 3px 1px -2px rgba(0, 0, 0, 0.2);
+}
+
+.link:hover {
+  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.link img {
+  transition: 0.3s;
+  width: 280px;
+  height: 175px;
+}
+
+.link img:hover {
+  transform: scale(1.05);
+}
+
+.work-center {
+  color: rgb(66, 66, 66);
+  font-size: 45px;
+  margin-top: 0;
+  text-align: center;
+  font-family: Capriola, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN",
+    Meiryo, sans-serif;
+  font-weight: bold;
+  margin: 15px 0 0 0;
+}
+
+.comment-center {
+  text-align: center;
+}
+
+.card {
+  min-width: 275;
+  margin: 0 0 20px 0;
+  color: #fff !important;
+  display: flex;
+}
+
+.card-comment {
+  color: hsla(0, 0%, 100%, 0.7);
+}
+
+.red {
+  background-color: #e44d26 !important;
+}
+
+.blue {
+  background-color: #0765a7 !important;
+}
+
+.react {
+  background-color: #61dbfb !important;
+}
+
+.firebase {
+  background-color: #ffcb2b !important;
+}
+
+.fab {
+  font-size: 80px;
+  padding: 16px;
+}
+
+.sample-app {
+  font-family: "Capriola", "ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ ProN W3",
+    Hiragino Kaku Gothic ProN, Meiryo, sans-serif;
+  font-size: 20px;
+  color: #424242;
+}
+
+.paper-left {
+  width: 50%;
+}
+
+.paper-right {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.paper-right img {
+  width: 500px;
+  height: 420px;
+}
+
+.paper-comment {
+  line-height: 1.5;
+  padding-right: 30px;
+}
+
+.paper-link {
+  list-style: none;
+  padding: 0;
+}
+
+.paper-link li a {
+  color: #039be5;
+  text-decoration: none;
+  margin-bottom: 5px;
+}
+
+.contact-center {
+  text-align: center;
+}
+
+.contact-comment {
+  text-align: center;
+  margin: 0;
+}
