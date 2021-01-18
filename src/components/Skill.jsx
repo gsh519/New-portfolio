@@ -50,7 +50,7 @@ export const Skill = () => {
               HTML & CSS
             </Typography>
             <Typography variant="body2" component="p" className='card-comment'>
-              LP系やHPの作成、楽天、Yahooなどのモールでのマークアップをおこなっています
+              HTML&CSSを使ったコーディングができます。CSSはSCSSを使ってコーディングすることができます。また、Bootstrapなどのライブラリーをつかってコーディングすることもできます。
             </Typography>
           </CardContent>
         </Card>
@@ -61,7 +61,7 @@ export const Skill = () => {
               JavaScript
             </Typography>
             <Typography variant="body2" component="p" className='card-comment'>
-              最近はVue.jsに移行しつつありますが、シンプルなWebサイト等ではjQueryを使っています
+              最近はReactに移行しつつありますが、シンプルなWebサイト等ではjQueryを使っています
             </Typography>
           </CardContent>
         </Card>
@@ -69,10 +69,10 @@ export const Skill = () => {
           <i className="fab fa-react"></i>
           <CardContent>
             <Typography variant="h5" component="h2">
-              React.js
+              React
             </Typography>
             <Typography variant="body2" component="p" className='card-comment'>
-              Vue.jsの勉強がてらこのポートフォリオサイトを作成しました
+              もっとも力を入れて勉強してきました。簡単なアプリケーションならReactを使って作ることができます。
             </Typography>
           </CardContent>
         </Card>
@@ -83,7 +83,7 @@ export const Skill = () => {
               Firebase
             </Typography>
             <Typography variant="body2" component="p" className='card-comment'>
-              Firebaseを使ってサービスを作ることができます。
+              バックエンド系の言語をまだ勉強していないのでバックエンドの部分をすべてFirebaseを使って補っています。
             </Typography>
           </CardContent>
         </Card>
