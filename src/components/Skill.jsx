@@ -14,11 +14,13 @@ const useStyles = makeStyles({
     color: '#50AFBF',
     borderBottom: '1px solid #50AFBF',
     '@media screen and (max-width: 679px)': {
-      display: 'flex',
+      display: 'block',
       justifyContent: 'center',
       fontSize: 20,
       margin: '10px 0 0 0',
-      borderBottom: 'none'
+      borderBottom: 'none',
+      position: 'unset',
+      textAlign: 'center',
     }
   },
   

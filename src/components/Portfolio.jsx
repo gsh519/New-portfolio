@@ -23,17 +23,23 @@ const useStyles = makeStyles((theme) => ({
     color: '#50AFBF',
     borderBottom: '1px solid #50AFBF',
     '@media screen and (max-width: 679px)': {
-      display: 'flex',
+      display: 'block',
       justifyContent: 'center',
       fontSize: 20,
       margin: '10px 0 0 0',
-      borderBottom: 'none'
+      borderBottom: 'none',
+      position: 'unset',
+      textAlign: 'center',
     }
   },
   modal: {
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
+    '@media screen and (max-width: 679px)': {
+      display: 'block',
+      overflow: 'scroll',
+    }
   },
   paper: {
     backgroundColor: '#fafafa',
@@ -44,6 +50,9 @@ const useStyles = makeStyles((theme) => ({
     display: 'flex',
     flexWrap: 'wrap',
     position: 'relative',
+    '@media screen and (max-width: 679px)': {
+      margin: '0 auto',
+    }
   },
 }))
 

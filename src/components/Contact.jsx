@@ -13,17 +13,13 @@ const useStyles = makeStyles({
     color: '#50AFBF',
     borderBottom: '1px solid #50AFBF',
     '@media screen and (max-width: 679px)': {
-      display: 'flex',
-      justifyContent: 'center',
+      display: 'block',
       fontSize: 20,
       margin: '10px 0 0 0',
-      borderBottom: 'none'
+      borderBottom: 'none',
+      position: 'unset',
+      textAlign: 'center',
     }
-  },
-  root: {
-    display: 'grid',
-    width: '40%',
-    margin: '0 auto',
   },
   text: {
     marginBottom: 30
@@ -33,23 +29,13 @@ const useStyles = makeStyles({
     fontWeight: 'bold',
     fontSize: 18,
     backgroundColor: '#50AFBF',
+    marginBottom: 20,
     '&:hover': {
       textDecoration: 'none',
       backgroundColor: 'grey',
       color: '#fff',
     },
-    '@media screen and (max-width: 679px)': {
-      display: 'none'
-    }
   },
-  center: {
-    fontFamily: 'Capriola, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif',
-    fontWeight: 'bold',
-    color: 'rgb(66, 66, 66)',
-    textAlign: 'center',
-    fontSize: 45,
-    margin: '0 0 5px 0'
-  }
 })
 
 export const Contact = () => {
@@ -82,8 +68,8 @@ export const Contact = () => {
   return (
     <>
       <h1 className={classes.title}>お問い合わせ</h1>
-      <h2 className={classes.center}>Contact</h2>
-      <form className={classes.root} autoComplete="off" onSubmit={handleSubmit}>
+      <h2 className='work-center'>Contact</h2>
+      <form className='form' autoComplete="off" onSubmit={handleSubmit}>
         <p className='contact-center'>最後までご覧いただきありがとうございました。このサイトを通して、私のことを少しでも知っていただけたのなら嬉しいです。</p>
         <p className='contact-comment'>何か連絡がございましたら連絡ください。</p>
         <TextField required id="standard-required" label="名前" className={classes.text} value={name} onChange={(e) => setName(e.target.value)} />

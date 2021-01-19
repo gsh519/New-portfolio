@@ -15,7 +15,7 @@ const useStyles = makeStyles((theme) => ({
   },
   // toolbar: theme.mixins.toolbar,
   drawerPaper: {
-    width: 256
+    width: 160
   },
   searchField: {
     alignItems: 'center',

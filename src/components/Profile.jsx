@@ -12,21 +12,15 @@ const useStyles = makeStyles({
     color: '#50AFBF',
     borderBottom: '1px solid #50AFBF',
     '@media screen and (max-width: 679px)': {
-      display: 'flex',
+      display: 'block',
       justifyContent: 'center',
       fontSize: 20,
       margin: '10px 0 0 0',
-      borderBottom: 'none'
+      borderBottom: 'none',
+      position: 'unset',
+      textAlign: 'center',
     }
   },
-  center: {
-    fontFamily: 'Capriola, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif',
-    fontWeight: 'bold',
-    color: 'rgb(66, 66, 66)',
-    textAlign: 'center',
-    fontSize: 45,
-    marginTop: 0
-  }
 })
 
 export const Profile = () => {
@@ -36,7 +30,7 @@ export const Profile = () => {
     <>
       <h1 className={classes.title}>プロフィール</h1>
       <div className='container-profile'>
-        <h2 className={classes.center}>About me</h2>
+        <h2 className='work-center'>About me</h2>
         <div className="row">
           <div className="left">
             <span className='img-box'>

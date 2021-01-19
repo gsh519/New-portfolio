@@ -241,7 +241,31 @@
   top: 0;
 }
 
+.center {
+  color: rgb(66, 66, 66);
+  font-size: 45px;
+  margin-top: 0;
+  text-align: center;
+  font-family: Capriola, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN",
+    Meiryo, sans-serif;
+  font-weight: bold;
+}
+
+.form {
+  display: grid;
+  width: 40%;
+  margin: 0 auto;
+}
+
+/* mobile */
+
 @media screen and (max-width: 959px) {
+  .form {
+    display: grid;
+    width: 80%;
+    margin: 0 auto;
+  }
+
   .container-profile {
     width: 85%;
   }
@@ -351,6 +375,10 @@
     position: unset !important;
   }
 
+  .makeStyles-btn-18 {
+    margin-bottom: 20px;
+  }
+
   .contact-comment {
     font-size: 14px;
   }
@@ -383,6 +411,11 @@
 
   .work-box > p {
     text-align: center;
+  }
+
+  .center {
+    font-style: 32px;
+    margin: 10px;
   }
 }
 
